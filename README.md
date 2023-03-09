@@ -14,10 +14,12 @@ Create an API using API Gateway
 
 The above link will automatically take you to the People route. The people object expects 3 properties: age(integer), id(string), and name(string).
 
-#### Features / Routes
+### Features / Routes
 
 There is only one route, the people route that optionally accepts a path parameter :id.
-/People :
+
+#### /people
+
     GET - Will return all people objects in the database
 
     GET/:id - Will return the people object with the matching id.
